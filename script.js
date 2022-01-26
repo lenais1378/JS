@@ -235,3 +235,179 @@
 // alert(test);
 
 
+//ОБЪЕКТЫ
+// var myFriend = {   //объект
+//     "name" : "Alex",
+//     "legs" : 2,
+//     "friends" : 50,
+//     "the drink" : "water"
+
+// };
+
+// var nameofFriend = myFriend.name;
+// alert(nameofFriend);
+
+
+// var myFriend = {  
+//     "name" : "Alex",
+//     "legs" : 2,
+//     "friends" : 50,
+//     "the drink" : "water"
+
+// };
+
+// var nameofFriend = myFriend['the drink'];
+// alert(nameofFriend);
+
+// var testObject = {
+//     12: "Kirill",
+//     15: "David",
+//     25: "Alex"
+// }
+// var playerNumber = 15;
+// var player = testObject[playerNumber];
+// alert(player);
+
+// var myFriend = {  
+//     "name" : "Alex",
+//     "legs" : 2,
+//     "friends" : 50,
+//     "the drink" : "water"
+
+// };
+
+// myFriend.name = "Denis";
+// myFriend["game"] = "football";
+// delete myFriend.game;
+// var nameofFriend = myFriend.game;
+// alert(nameofFriend)
+
+
+// var myStorage = {
+//     "car":{
+//         "inside":{
+//             "glove box" : "maps",
+//             "passenger seat" : "crumbs"
+//         },
+//         "outside":{
+//             "trunk" : "Jack"
+//         }
+//     }
+// };
+// var gloveBoxContent = myStorage.car.inside["glove box"];
+// alert(gloveBoxContent);
+
+
+
+//ПЕРЕБОР СВОЙСТВ ОБЪЕКТОВ
+// var menu = {
+//     width: 400,
+//     height: 200,
+//     title: "Menu"
+// };
+// for (var key in menu) {
+//     alert ("Ключ: " + key + "Значение:  " + menu[key]);
+// }
+
+// var menu = {
+//     width: 400,
+//     height: 200,
+//     title: "Menu"
+// };
+// var counter = 0;
+// for (var key in menu ){
+//     counter++;
+
+// }
+// alert("Всего свойств: " + counter);
+
+
+
+// var codes = {
+//     "12": "USA",
+//     "5": "Poland",
+//     "73": "Ukraine"
+// };
+// for(var prop in codes){
+//     alert(prop);
+
+// }
+
+// var codes = {
+//     "+12": "USA",
+//     "+5": "Poland",
+//     "+73": "Ukraine"
+// };
+// for(var prop in codes){
+//     alert(prop);
+
+// }
+// var user = {
+//     name: "Roma",
+//     surname: "Petrov"
+// };
+// user.age = 25;
+// for (var prop in user) {
+//     alert(prop);
+// }
+
+//МЕТОД: ДАТА И ВРЕМЯ
+
+// var now = new Date(); //Время сейчас
+// alert(now);
+
+// var now = new Date(2011,0,1,0,0,0,0);
+// alert(now.getFullYear());
+
+// var now = new Date(2011,0,1,0,0,0,0);
+// alert(now.getMonth());
+
+// var now = new Date(2011,0,1,0,0,0,0);
+// alert(now.getDate());
+
+// var now = new Date(2011,0,1,0,0,0,0);
+// alert(now.getHours());
+
+// var now = new Date(2011,0,1,0,0,0,0);
+// alert(now.getDay());
+
+// var d = new Date(2011,1,28);
+// d.setDate(d.getDate() + 2);
+// alert(d);
+
+// var d = new Date();
+// d.setSeconds(d.getSeconds() + 70);
+// alert(d);
+
+// var d = new Date();
+// d.setDate(1);
+// alert(d);
+
+// d.setDate(0);
+// alert(d);
+
+// var d = new Date();
+// d.setDate(1);
+// alert(d);
+
+// d.setDate(-1);
+// alert(d);
+
+//ОБРАБОТКА СОБЫТИЙ - см в html (в закомментированных) 
+
+
+// DOM. Доступ к элементам веб-страницы
+
+// var element = document.getElementById('header');
+// console.log(element);
+
+
+// var element = document.getElementsByTagName('');
+// document.getElementsByClassName('');
+
+
+// var divs = document.getElementsByTagName ('div');
+// var links = document.getElementsByClassName ('my-link');
+// console.log('collection of tag name' + divs);
+// console.log('collection of class name' + links);
+
